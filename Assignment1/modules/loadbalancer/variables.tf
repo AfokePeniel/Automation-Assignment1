@@ -40,7 +40,7 @@ variable "loadbalancer" {
     type = map(string) 
     default = {
         name    = "3669-loadbalancer"
-        frontend_ip_configuration = "pubip-3552"
+        frontend_ip_configuration = "pubip-3669"
     }
 }
 
